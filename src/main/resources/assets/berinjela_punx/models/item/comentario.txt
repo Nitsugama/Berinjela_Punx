@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated", -> a forma como o item é segurado na sua mao (generated: Item normal)
+  "textures": {
+    "layer0": "berinjela_punx:item/sapphire" -> layer0 é a textura do item. textures é a pasta, berinjela punx é a raiz
+  }                                              ele busca o png "sapphire" na pasta item, dentro de textures dentro de berinjela punx
+}
