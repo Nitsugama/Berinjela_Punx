@@ -1,0 +1,9 @@
+CRIAR BLOCO:
+
+criar o bloco na classe blocos
+adicionar na hotbar
+adicionar na lang
+adicionar blockstate
+adicionar item
+adicionar textura
+adicionar block

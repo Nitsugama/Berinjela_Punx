@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.nicolad.berinjelapunx.block.ModBlocks;
 import net.nicolad.berinjelapunx.item.ModCreativeModeTabs;
 import net.nicolad.berinjelapunx.item.ModItems;
 import org.slf4j.Logger;
@@ -30,6 +31,7 @@ public class BerinjelaPunx {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -41,11 +43,12 @@ public class BerinjelaPunx {
 
     }
 
+    //ADICIONA NA HOTBAR JA EXISTENTE DO CRIATIVO
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+       /* if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.RAW_SAPPHIRE);
-        }
+        }*/
 
     }
 

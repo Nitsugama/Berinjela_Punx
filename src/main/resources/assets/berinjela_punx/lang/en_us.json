@@ -2,5 +2,9 @@
   "item.berinjela_punx.sapphire": "Sapphire",
   "item.berinjela_punx.raw_sapphire": "Raw Sapphire",
 
+
+  "block.berinjela_punx.sapphire_block": "Block of Sapphire",
+  "block.berinjela_punx.raw_sapphire_block": "Sapphire Ore",
+
   "creativetab.saulolitems": "Saulolitems"
 }
