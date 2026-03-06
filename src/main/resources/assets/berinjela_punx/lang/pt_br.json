@@ -1,9 +1,13 @@
 {
   "item.berinjela_punx.sapphire": "Safira",
   "item.berinjela_punx.raw_sapphire": "Safira bruta",
+  "item.berinjela_punx.crack": "Pedra de Craque",
+  "item.berinjela_punx.chemical_mix": "Mistura Quimica",
 
 
   "block.berinjela_punx.sapphire_block": "Bloco de Pau",
+  "block.berinjela_punx.raw_sapphire_block": "Minério de Pau",
+  "block.berinjela_punx.crack_block": "Tijolo de Craque",
 
   "creativetab.saulolitems": "Saulolitems"
 }

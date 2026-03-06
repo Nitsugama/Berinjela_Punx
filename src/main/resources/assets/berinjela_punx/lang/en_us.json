@@ -1,10 +1,13 @@
 {
   "item.berinjela_punx.sapphire": "Sapphire",
   "item.berinjela_punx.raw_sapphire": "Raw Sapphire",
+  "item.berinjela_punx.crack": "Crack",
+  "item.berinjela_punx.chemical_mix": "Chemical Mixture",
 
 
   "block.berinjela_punx.sapphire_block": "Block of Sapphire",
   "block.berinjela_punx.raw_sapphire_block": "Sapphire Ore",
+  "block.berinjela_punx.crack_block": "Block of Crack",
 
   "creativetab.saulolitems": "Saulolitems"
 }

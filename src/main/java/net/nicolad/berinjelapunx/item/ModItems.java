@@ -22,6 +22,12 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CRACK = ITEMS.register("crack",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CHEMICAL_MIX = ITEMS.register("chemical_mix",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

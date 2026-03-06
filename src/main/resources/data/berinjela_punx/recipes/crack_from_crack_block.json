@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "berinjela_punx:crack_block"
+    }
+  ],
+  "result": {
+    "item": "berinjela_punx:crack",
+    "count": 4
+  }
+}
