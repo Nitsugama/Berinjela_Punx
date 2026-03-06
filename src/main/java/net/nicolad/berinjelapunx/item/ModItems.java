@@ -28,6 +28,9 @@ public class ModItems {
     public static final RegistryObject<Item> CHEMICAL_MIX = ITEMS.register("chemical_mix",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CRUX = ITEMS.register("crux",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
