@@ -4,11 +4,14 @@
   "item.berinjela_punx.crack": "Crack",
   "item.berinjela_punx.chemical_mix": "Chemical Mixture",
   "item.berinjela_punx.crux": "Crux",
+  "item.berinjela_punx.crack_pipe": "Glass Pipe with Crack",
+  "item.berinjela_punx.pipe": "Glass Pipe",
 
 
   "block.berinjela_punx.sapphire_block": "Block of Sapphire",
-  "block.berinjela_punx.raw_sapphire_block": "Sapphire Ore",
+  "block.berinjela_punx.raw_sapphire_block": "Block Of Raw Sapphire",
   "block.berinjela_punx.crack_block": "Block of Crack",
+  "block.berinjela_punx.sapphire_ore_block": "Sapphire Ore",
 
   "creativetab.saulolitems": "Saulolitems"
 }

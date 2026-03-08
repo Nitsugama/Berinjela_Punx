@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nicolad.berinjelapunx.BerinjelaPunx;
+import net.nicolad.berinjelapunx.item.custom.CrackPipeItem;
 import org.apache.commons.lang3.math.IEEE754rUtils;
 
 public class ModItems {
@@ -18,9 +19,15 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PIPE = ITEMS.register("pipe",
+            () -> new Item(new Item.Properties()));
+
     //RAW SAPPHIRE
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CRACK_PIPE = ITEMS.register("crack_pipe",
+            () -> new CrackPipeItem(new Item.Properties()));
 
     public static final RegistryObject<Item> CRACK = ITEMS.register("crack",
             () -> new Item(new Item.Properties()));

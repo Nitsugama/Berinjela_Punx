@@ -26,9 +26,12 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CRACK.get());
                         pOutput.accept(ModItems.CHEMICAL_MIX.get());
                         pOutput.accept(ModItems.CRUX.get());
+                        pOutput.accept(ModItems.PIPE.get());
+                        pOutput.accept(ModItems.CRACK_PIPE.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.CRACK_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
 
                     })
                     .build());

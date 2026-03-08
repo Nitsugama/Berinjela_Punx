@@ -4,11 +4,15 @@
   "item.berinjela_punx.crack": "Pedra de Craque",
   "item.berinjela_punx.chemical_mix": "Mistura Quimica",
   "item.berinjela_punx.crux": "Crucifixo",
+  "item.berinjela_punx.crack_pipe": "Cachimbo de Vidro com Craque",
+  "item.berinjela_punx.pipe": "Cachimbo de Vidro",
+
 
 
   "block.berinjela_punx.sapphire_block": "Bloco de Pau",
   "block.berinjela_punx.raw_sapphire_block": "Minério de Pau",
   "block.berinjela_punx.crack_block": "Tijolo de Craque",
+  "block.berinjela_punx.sapphire_ore_block": "Minerio de Safira",
 
   "creativetab.saulolitems": "Saulolitems"
 }
