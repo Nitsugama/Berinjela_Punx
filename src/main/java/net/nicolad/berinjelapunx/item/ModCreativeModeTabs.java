@@ -18,20 +18,17 @@ public class ModCreativeModeTabs {
 
         // TAB DO CRIATIVO
     public static final RegistryObject<CreativeModeTab> SAULOLITEMS = CREATIVE_MODE_TABS.register("saulolitems",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CRUX.get()))
                     .title(Component.translatable("creativetab.saulolitems"))
                     .displayItems((pParameters, pOutput) ->{
-                        pOutput.accept(ModItems.SAPPHIRE.get());
-                        pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-                        pOutput.accept(ModItems.CRACK.get());
                         pOutput.accept(ModItems.CHEMICAL_MIX.get());
-                        pOutput.accept(ModItems.CRUX.get());
+                        pOutput.accept(ModItems.CRACK.get());
                         pOutput.accept(ModItems.PIPE.get());
                         pOutput.accept(ModItems.CRACK_PIPE.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModItems.RAW_SACK.get());
+                        pOutput.accept(ModItems.COOKED_SACK.get());
+                        pOutput.accept(ModItems.CRUX.get());
                         pOutput.accept(ModBlocks.CRACK_BLOCK.get());
-                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
-                        pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
 
                     })
                     .build());

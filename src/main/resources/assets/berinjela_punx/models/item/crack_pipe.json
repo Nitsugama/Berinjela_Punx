@@ -1,6 +1,19 @@
 {
   "parent": "item/generated",
-  "textures": {
-    "layer0": "berinjela_punx:item/crack_pipe"
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "berinjela_punx:item/crack_pipe_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "berinjela_punx:item/crack_pipe_2d"
+    },
+    "ground": {
+      "parent": "berinjela_punx:item/crack_pipe_2d"
+    },
+    "fixed": {
+      "parent": "berinjela_punx:item/crack_pipe_2d"
+    }
+
   }
 }
