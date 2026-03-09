@@ -1,0 +1,10 @@
+{
+  "pawn_shop": {
+    "sounds": [
+      {
+        "name": "berinjela_punx:pawn_shop",
+        "stream": true
+      }
+    ]
+  }
+}

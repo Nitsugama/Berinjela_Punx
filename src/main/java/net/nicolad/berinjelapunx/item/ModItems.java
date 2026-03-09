@@ -8,6 +8,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.nicolad.berinjelapunx.BerinjelaPunx;
 import net.nicolad.berinjelapunx.item.custom.BerinjelasBootsItem;
 import net.nicolad.berinjelapunx.item.custom.CrackPipeItem;
+import net.nicolad.berinjelapunx.sound.ModSounds;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -58,6 +59,12 @@ public class ModItems {
 
     public static final RegistryObject<Item> BERINJELAS_BOOTS = ITEMS.register("berinjelas_boots",
             () -> new BerinjelasBootsItem(ModArmorMaterials.BERINJELAS, ArmorItem.Type.BOOTS,  new Item.Properties().setNoRepair()));
+
+
+    //-------------------------------------MUSIC DISC-----------------------------------//
+
+    public static final  RegistryObject<Item> PAWN_SHOP_MUSIC_DISC = ITEMS.register("pawn_shop_music_disc",
+            () -> new RecordItem(6, ModSounds.PAWN_SHOP, new Item.Properties().stacksTo(1), 7340));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

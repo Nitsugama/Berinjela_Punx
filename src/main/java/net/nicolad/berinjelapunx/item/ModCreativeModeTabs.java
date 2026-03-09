@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CRACK.get());
                         pOutput.accept(ModItems.PIPE.get());
                         pOutput.accept(ModItems.CRACK_PIPE.get());
+                        pOutput.accept(ModItems.PAWN_SHOP_MUSIC_DISC.get());
 
 
                         pOutput.accept(ModItems.RAW_SACK.get());

@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.nicolad.berinjelapunx.block.ModBlocks;
 import net.nicolad.berinjelapunx.item.ModCreativeModeTabs;
 import net.nicolad.berinjelapunx.item.ModItems;
+import net.nicolad.berinjelapunx.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -30,6 +31,8 @@ public class BerinjelaPunx {
 
         ModCreativeModeTabs.register(modEventBus);
 
+
+        ModSounds.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
