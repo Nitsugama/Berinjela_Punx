@@ -25,9 +25,18 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CRACK.get());
                         pOutput.accept(ModItems.PIPE.get());
                         pOutput.accept(ModItems.CRACK_PIPE.get());
+
+
                         pOutput.accept(ModItems.RAW_SACK.get());
                         pOutput.accept(ModItems.COOKED_SACK.get());
+
+
                         pOutput.accept(ModItems.CRUX.get());
+
+
+                        pOutput.accept(ModItems.BERINJELAS_BOOTS.get());
+
+
                         pOutput.accept(ModBlocks.CRACK_BLOCK.get());
 
                     })

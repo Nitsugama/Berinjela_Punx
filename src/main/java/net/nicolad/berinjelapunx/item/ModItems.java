@@ -1,13 +1,13 @@
 package net.nicolad.berinjelapunx.item;
 
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nicolad.berinjelapunx.BerinjelaPunx;
+import net.nicolad.berinjelapunx.item.custom.BerinjelasBootsItem;
 import net.nicolad.berinjelapunx.item.custom.CrackPipeItem;
-import org.apache.commons.lang3.math.IEEE754rUtils;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -48,14 +48,23 @@ public class ModItems {
 
     //----------------------------------FERRAMENTAS---------------------------------//
 
-    //CRUCIFIXO (ainda nao é uma ferramenta)
+    //CRUCIFIXO
     public static final RegistryObject<Item> CRUX = ITEMS.register("crux",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new PickaxeItem(Tiers.IRON, 7, 1,  new Item.Properties()));
+
+
+
+    //-------------------------------------ARMADURA-----------------------------------//
+
+    public static final RegistryObject<Item> BERINJELAS_BOOTS = ITEMS.register("berinjelas_boots",
+            () -> new BerinjelasBootsItem(ModArmorMaterials.BERINJELAS, ArmorItem.Type.BOOTS,  new Item.Properties().setNoRepair()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
 }
+
+
 
 
 

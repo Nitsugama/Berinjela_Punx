@@ -1,16 +1,28 @@
 {
+  "item.berinjela_punx.chemical_mix": "Misto Químico",
   "item.berinjela_punx.crack": "Pedra de Craque",
-  "item.berinjela_punx.chemical_mix": "Mistura Quimica",
-  "item.berinjela_punx.crux": "Crucifixo",
-  "item.berinjela_punx.crack_pipe": "Cachimbo de Vidro com Craque",
   "item.berinjela_punx.pipe": "Cachimbo de Vidro",
+  "item.berinjela_punx.crack_pipe": "Cachimbo de Vidro com Craque",
+  "tooltip.berinjela_punx.crack_pipe": "Um Cachimbo de Vidro cheio de Craque. Pode ser fumado.",
+
+
+
+  "item.berinjela_punx.crux": "Cruz",
+
+
+
   "item.berinjela_punx.raw_sack": "Saco Cru",
-  "item.berinjela_punx.cooked_sack": "Saco Assado",
-  "tooltip.berinjela_punx.crack_pipe": "Um Cachimbo de Vidro cheio de Craque. Pode ser Fumado.",
+  "item.berinjela_punx.cooked_sack": "Saco Cozido",
+
+
+
+  "item.berinjela_punx.berinjelas_boots": "Botas Punk do Berinjela",
 
 
 
   "block.berinjela_punx.crack_block": "Tijolo de Craque",
+
+
 
   "creativetab.saulolitems": "Saulolitems"
 }

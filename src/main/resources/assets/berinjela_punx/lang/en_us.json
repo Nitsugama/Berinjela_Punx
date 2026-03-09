@@ -1,16 +1,28 @@
 {
-  "item.berinjela_punx.crack": "Crack",
   "item.berinjela_punx.chemical_mix": "Chemical Mixture",
-  "item.berinjela_punx.crux": "Crux",
-  "item.berinjela_punx.crack_pipe": "Glass Pipe with Crack",
+  "item.berinjela_punx.crack": "Crack",
   "item.berinjela_punx.pipe": "Glass Pipe",
-  "item.berinjela_punx.raw_sack": "Raw Sack",
-  "item.berinjela_punx.cooked_sack": "Cooked Sack",
+  "item.berinjela_punx.crack_pipe": "Glass Pipe with Crack",
   "tooltip.berinjela_punx.crack_pipe": "A Glass Pipe full of Crack. Can be Smoked.",
 
 
 
+  "item.berinjela_punx.crux": "Crux",
+
+
+
+  "item.berinjela_punx.raw_sack": "Raw Sack",
+  "item.berinjela_punx.cooked_sack": "Cooked Sack",
+
+
+
+  "item.berinjela_punx.berinjelas_boots": "Berinjela's Punk Boots",
+
+
+
   "block.berinjela_punx.crack_block": "Block of Crack",
+
+
 
   "creativetab.saulolitems": "Saulolitems"
 }
