@@ -1,0 +1,24 @@
+{
+  "parent": "item/generated",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "berinjela_punx:item/cigarette_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "berinjela_punx:item/cigarette_2d"
+    },
+    "ground": {
+      "parent": "berinjela_punx:item/cigarette_2d"
+    },
+    "fixed": {
+      "parent": "berinjela_punx:item/cigarette_2d"
+    }
+  },
+  "overrides": [
+    {
+      "predicate": { "damage": 0.5 },
+      "model": "berinjela_punx:item/cigarette_lit"
+    }
+  ]
+}

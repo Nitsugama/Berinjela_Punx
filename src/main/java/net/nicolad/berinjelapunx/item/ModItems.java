@@ -7,6 +7,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nicolad.berinjelapunx.BerinjelaPunx;
 import net.nicolad.berinjelapunx.item.custom.BerinjelasBootsItem;
+import net.nicolad.berinjelapunx.item.custom.CigaretteItem;
 import net.nicolad.berinjelapunx.item.custom.CrackPipeItem;
 import net.nicolad.berinjelapunx.sound.ModSounds;
 
@@ -27,6 +28,14 @@ public class ModItems {
     // CACHIMBO COM CRACK
     public static final RegistryObject<Item> CRACK_PIPE = ITEMS.register("crack_pipe",
             () -> new CrackPipeItem(new Item.Properties().stacksTo(1)));
+
+    //CIGARRO
+    public static final RegistryObject<Item> CIGARETTE = ITEMS.register("cigarette",
+            () -> new CigaretteItem(new Item.Properties().stacksTo(1).durability(2)));
+
+    //ZIPPO
+    public static final RegistryObject<Item> ZIPPO = ITEMS.register("zippo",
+            () -> new Item(new Item.Properties().stacksTo(1).durability(100)));
 
     //CRACK
     public static final RegistryObject<Item> CRACK = ITEMS.register("crack",

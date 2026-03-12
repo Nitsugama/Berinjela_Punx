@@ -1,0 +1,60 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "berinjela_punx:item/3d_item/cigarette_3d",
+		"particle": "berinjela_punx:item/3d_item/cigarette_3d"
+	},
+	"elements": [
+		{
+			"from": [7, 6, 2],
+			"to": [8, 7, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 5, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 3, 3], "texture": "#0"},
+				"east": {"uv": [0, 0, 8, 1], "texture": "#0"},
+				"south": {"uv": [2, 3, 3, 4], "texture": "#0"},
+				"west": {"uv": [0, 1, 8, 2], "texture": "#0"},
+				"up": {"uv": [1, 10, 0, 2], "texture": "#0"},
+				"down": {"uv": [2, 2, 1, 10], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [32, -16, 0],
+			"translation": [1, 1, 1.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [32, -16, 0],
+			"translation": [0, 1, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [12, -12, 0],
+			"translation": [0.75, 1.75, 1.25],
+			"scale": [0.67773, 0.67773, 0.67773]
+		},
+		"firstperson_lefthand": {
+			"rotation": [12, -12, 0],
+			"translation": [0.75, 1.75, 1.25],
+			"scale": [0.67773, 0.67773, 0.67773]
+		},
+		"ground": {
+			"scale": [0.63086, 0.63086, 0.63086]
+		},
+		"gui": {
+			"rotation": [90, -45, 0],
+			"translation": [-1, -3, 0],
+			"scale": [1.66016, 1.66016, 1.66016]
+		},
+		"fixed": {
+			"rotation": [90, 45, 0],
+			"translation": [3.25, -1.5, 0],
+			"scale": [1.70117, 1.70117, 1.70117]
+		},
+		"on_shelf": {
+			"rotation": [90, 0, 0],
+			"scale": [1.61328, 1.61328, 1.61328]
+		}
+	}
+}

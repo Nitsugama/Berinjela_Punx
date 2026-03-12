@@ -24,6 +24,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.CHEMICAL_MIX.get());
                         pOutput.accept(ModItems.CRACK.get());
                         pOutput.accept(ModItems.PIPE.get());
+                        pOutput.accept(ModItems.ZIPPO.get());
+                        pOutput.accept(ModItems.CIGARETTE.get());
                         pOutput.accept(ModItems.CRACK_PIPE.get());
                         pOutput.accept(ModItems.PAWN_SHOP_MUSIC_DISC.get());
 
