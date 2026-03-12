@@ -31,7 +31,7 @@ public class ModItems {
 
     //CIGARRO
     public static final RegistryObject<Item> CIGARETTE = ITEMS.register("cigarette",
-            () -> new CigaretteItem(new Item.Properties().stacksTo(1).durability(2)));
+            () -> new CigaretteItem(new Item.Properties().stacksTo(1).durability(9)));
 
     //ZIPPO
     public static final RegistryObject<Item> ZIPPO = ITEMS.register("zippo",

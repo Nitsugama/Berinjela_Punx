@@ -66,12 +66,12 @@ public class CrackPipeItem extends Item {
     public ItemStack finishUsingItem(ItemStack pStack, Level pLevel, LivingEntity pLivingEntity) {
         if (!pLevel.isClientSide) {
             if (pLivingEntity instanceof Player player) {
-                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300, 3));
-                player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 300, 3));
-                player.addEffect(new MobEffectInstance(MobEffects.JUMP, 300, 3));
-                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 300, 3));
-                player.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 300, 1));
-                player.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 300, 3));
+                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 300, 3, false, false, true));
+                player.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 300, 3,false, false, true));
+                player.addEffect(new MobEffectInstance(MobEffects.JUMP, 300, 3,false, false, true));
+                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 300, 3,false, false, true));
+                player.addEffect(new MobEffectInstance(MobEffects.DARKNESS, 300, 1,false, false, true));
+                player.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 300, 3,false, false, true));
 
                 if (!player.getAbilities().instabuild) {
                     pStack.shrink(1);

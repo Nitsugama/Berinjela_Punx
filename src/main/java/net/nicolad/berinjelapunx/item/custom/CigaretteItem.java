@@ -53,15 +53,15 @@ public class CigaretteItem extends Item {
     public ItemStack finishUsingItem(ItemStack pStack, Level pLevel, LivingEntity pLivingEntity) {
         if (!pLevel.isClientSide) {
             if (pLivingEntity instanceof Player player) {
-                player.addEffect(new MobEffectInstance(MobEffects.HEAL, 1200, 0));
-                player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 1200, 0));
-                player.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 1200, 0));
+                player.addEffect(new MobEffectInstance(MobEffects.HEAL, 1200, 0,false, false, true));
+                player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 1200, 0,false, false, true));
+                player.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 1200, 0,false, false, true));
                 pLevel.addParticle(
                         ParticleTypes.SMOKE,
                         player.getX(),
                         player.getY() + 1.5,
                         player.getZ(),
-                        0, 0.02, 0
+                        0.1, 0.1, 0.1
                 );
 
                 if (!player.getAbilities().instabuild) {

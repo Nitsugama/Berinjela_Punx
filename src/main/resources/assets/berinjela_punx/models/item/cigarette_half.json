@@ -3,7 +3,7 @@
   "loader": "forge:separate_transforms",
 
   "base": {
-    "parent": "berinjela_punx:item/cigarette_3d"
+    "parent": "berinjela_punx:item/cigarette_half_3d"
   },
 
   "perspectives": {
