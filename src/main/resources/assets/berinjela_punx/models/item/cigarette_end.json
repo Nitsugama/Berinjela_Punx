@@ -7,8 +7,8 @@
   },
 
   "perspectives": {
-    "gui": { "parent": "berinjela_punx:item/cigarette_lit_2d" },
-    "ground": { "parent": "berinjela_punx:item/cigarette_lit_2d" },
-    "fixed": { "parent": "berinjela_punx:item/cigarette_lit_2d" }
+    "gui": { "parent": "berinjela_punx:item/cigarette_end_2d" },
+    "ground": { "parent": "berinjela_punx:item/cigarette_end_2d" },
+    "fixed": { "parent": "berinjela_punx:item/cigarette_end_2d" }
   }
 }

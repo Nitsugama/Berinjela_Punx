@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "berinjela_punx:item/cigarette_half"
+  }
+}

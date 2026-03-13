@@ -1,6 +1,8 @@
 package net.nicolad.berinjelapunx.item.custom;
 
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -12,11 +14,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
 import net.nicolad.berinjelapunx.item.ModItems;
-import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.List;
 
 
@@ -26,33 +27,31 @@ public class CrackPipeItem extends Item {
     }
 
     @Override
-    @NotNull
-    @ParametersAreNonnullByDefault
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
+
+        ItemStack offhandItem = pPlayer.getOffhandItem();
         ItemStack itemStack = pPlayer.getItemInHand(pUsedHand);
 
-        pPlayer.startUsingItem(pUsedHand);
+        if (!offhandItem.is(ModItems.ZIPPO.get())) {
+            return InteractionResultHolder.fail(pPlayer.getItemInHand(pUsedHand));
+        }
 
+        pPlayer.startUsingItem(pUsedHand);
 
         return InteractionResultHolder.consume(itemStack);
     }
 
     @Override
-    @ParametersAreNonnullByDefault
     public int getUseDuration(ItemStack pStack) {
         return 32;
     }
 
     @Override
-    @NotNull
-    @ParametersAreNonnullByDefault
     public UseAnim getUseAnimation(ItemStack pStack) {
         return UseAnim.BOW;
     }
 
     @Override
-    @NotNull
-    @ParametersAreNonnullByDefault
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
 
         pTooltipComponents.add(Component.translatable("tooltip.berinjela_punx.crack_pipe"));
@@ -61,8 +60,6 @@ public class CrackPipeItem extends Item {
     }
 
     @Override
-    @NotNull
-    @ParametersAreNonnullByDefault
     public ItemStack finishUsingItem(ItemStack pStack, Level pLevel, LivingEntity pLivingEntity) {
         if (!pLevel.isClientSide) {
             if (pLivingEntity instanceof Player player) {
@@ -78,6 +75,11 @@ public class CrackPipeItem extends Item {
                 }
 
                 ItemStack pipe = new ItemStack(ModItems.PIPE.get());
+
+                ItemStack offhand = player.getOffhandItem();
+                if(offhand.is(ModItems.ZIPPO.get())){
+                    offhand.hurtAndBreak(1, player, (p) -> {});
+                }
 
                 if (!player.getInventory().add(pipe)) {
                     player.drop(pipe, false);

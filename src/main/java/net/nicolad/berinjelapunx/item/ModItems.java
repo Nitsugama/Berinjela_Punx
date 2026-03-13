@@ -9,6 +9,7 @@ import net.nicolad.berinjelapunx.BerinjelaPunx;
 import net.nicolad.berinjelapunx.item.custom.BerinjelasBootsItem;
 import net.nicolad.berinjelapunx.item.custom.CigaretteItem;
 import net.nicolad.berinjelapunx.item.custom.CrackPipeItem;
+import net.nicolad.berinjelapunx.item.custom.MarlboroItem;
 import net.nicolad.berinjelapunx.sound.ModSounds;
 
 public class ModItems {
@@ -33,9 +34,17 @@ public class ModItems {
     public static final RegistryObject<Item> CIGARETTE = ITEMS.register("cigarette",
             () -> new CigaretteItem(new Item.Properties().stacksTo(1).durability(9)));
 
+    //MAÇO
+    public static final RegistryObject<Item> MARLBORO = ITEMS.register("marlboro",
+            () -> new MarlboroItem(new Item.Properties().stacksTo(1).durability(10)));
+
+    //BITUCA
+    public static final RegistryObject<Item> CIGARETTE_BUTT = ITEMS.register("cigarette_butt",
+            () -> new Item(new Item.Properties()));
+
     //ZIPPO
     public static final RegistryObject<Item> ZIPPO = ITEMS.register("zippo",
-            () -> new Item(new Item.Properties().stacksTo(1).durability(100)));
+            () -> new Item(new Item.Properties().stacksTo(1).durability(50)));
 
     //CRACK
     public static final RegistryObject<Item> CRACK = ITEMS.register("crack",

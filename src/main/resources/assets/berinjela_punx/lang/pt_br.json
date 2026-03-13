@@ -3,13 +3,20 @@
   "item.berinjela_punx.crack": "Pedra de Craque",
   "item.berinjela_punx.pipe": "Cachimbo de Vidro",
   "item.berinjela_punx.crack_pipe": "Cachimbo de Vidro com Craque",
+
+
   "tooltip.berinjela_punx.crack_pipe": "Um Cachimbo de Vidro cheio de Craque. Pode ser fumado.",
+  "tooltip.berinjela_punx.marlboro": "Clique com o Botão direito para receber Cigarros.",
+
+  "item.berinjela_punx.cigarette": "Cigarro",
+  "item.berinjela_punx.marlboro": "Maço de Marlboro",
+  "item.berinjela_punx.cigarette_butt": "Bituca de Cigarro",
 
 
 
   "item.berinjela_punx.crux": "Cruz",
 
-
+  "effect.berinjela_punx.nicotine": "Nicotina",
 
   "item.berinjela_punx.raw_sack": "Saco Cru",
   "item.berinjela_punx.cooked_sack": "Saco Cozido",

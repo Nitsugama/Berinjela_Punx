@@ -5,7 +5,11 @@
   "item.berinjela_punx.crack_pipe": "Glass Pipe with Crack",
   "item.berinjela_punx.zippo": "Zippo Lighter",
   "item.berinjela_punx.cigarette": "Cigarette",
+  "item.berinjela_punx.marlboro": "Marlboro Pack",
+
+
   "tooltip.berinjela_punx.crack_pipe": "A Glass Pipe full of Crack. Can be Smoked.",
+  "tooltip.berinjela_punx.marlboro": "Right-click to drop Cigarettes.",
 
   "item.berinjela_punx.pawn_shop_music_disc": "Pawn Shop Music Disc",
   "item.berinjela_punx.pawn_shop_music_disc.desc": "Pawn Shop - Sublime",
@@ -14,6 +18,9 @@
 
   "item.berinjela_punx.crux": "Crux",
 
+
+
+  "effect.berinjela_punx.nicotine": "Nicotine",
 
 
   "item.berinjela_punx.raw_sack": "Raw Sack",

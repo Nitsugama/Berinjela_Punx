@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.nicolad.berinjelapunx.block.ModBlocks;
+import net.nicolad.berinjelapunx.effect.ModEffects;
 import net.nicolad.berinjelapunx.item.ModCreativeModeTabs;
 import net.nicolad.berinjelapunx.item.ModItems;
 import net.nicolad.berinjelapunx.sound.ModSounds;
@@ -35,6 +36,7 @@ public class BerinjelaPunx {
         ModSounds.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEffects.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

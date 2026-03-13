@@ -17,11 +17,15 @@
   },
   "overrides": [
     {
-      "predicate": { "damage": 0.3 },
+      "predicate": { "damage": 0.1 },
+      "model": "berinjela_punx:item/cigarette_lit"
+    },
+    {
+      "predicate": { "damage": 0.4 },
       "model": "berinjela_punx:item/cigarette_half"
     },
     {
-      "predicate": { "damage": 0.6 },
+      "predicate": { "damage": 0.7 },
       "model": "berinjela_punx:item/cigarette_end"
     }
   ]

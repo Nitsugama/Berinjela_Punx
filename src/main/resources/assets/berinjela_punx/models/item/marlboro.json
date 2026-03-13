@@ -1,0 +1,24 @@
+{
+  "parent": "item/generated",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "berinjela_punx:item/marlboro_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "berinjela_punx:item/marlboro_2d"
+    },
+    "ground": {
+      "parent": "berinjela_punx:item/marlboro_2d"
+    },
+    "fixed": {
+      "parent": "berinjela_punx:item/marlboro_2d"
+    }
+  },
+  "overrides": [
+    {
+      "predicate": { "damage": 0.1 },
+      "model": "berinjela_punx:item/marlboro_open"
+    }
+  ]
+}
